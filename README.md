@@ -9,6 +9,8 @@ relacional.
 - Para desplegar los web services se desplegaron en Render con ayuda de un DockerFile.
 - El PostgreSql está desplegado en Render.
 - El MongoDB está desplegado en la plataforma Atlas.
+- Desventaja, en la capa free, la instancia deja de funcionar por inactividad
+- Asi que, la primera vez que se llame a un web service, tendra una demora, mientras levanta la instancia
 
 
 ## Requisitos
