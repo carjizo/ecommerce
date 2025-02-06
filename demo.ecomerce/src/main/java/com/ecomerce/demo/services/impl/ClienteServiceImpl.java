@@ -50,7 +50,7 @@ public class ClienteServiceImpl implements ClienteService {
         return clienteId.flatMap(
                 existsId -> existsId ? // si existe
                         clienteRepeatedEmail.flatMap(existsEmail -> existsEmail ? Mono.error(new CustomException(HttpStatus.BAD_REQUEST,NOMBRE_MESSAGE))
-                                : clienteRepository.save(new Cliente(id, dto.getNombre(), dto.getEmail(), dto.getDireccion(), dto.getTelefono())))
+                                : clienteRepository.save(new Cliente(id, dto.getNombre(), dto.getEmail(), dto.getTelefono(), dto.getDireccion())))
                         : Mono.error(new CustomException(HttpStatus.NOT_FOUND,NF_MESSAGE)));
     }
 
