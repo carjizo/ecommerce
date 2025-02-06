@@ -23,7 +23,7 @@ relacional.
 ## Pruebas Postman (Pedido)
 - Crear pedido (POST)
 
-    url: https://ecommerce-aywx.onrender.com/pedido 
+    url: https://ecommerce-y8xp.onrender.com/pedido 
 
     body:
     ```
@@ -38,15 +38,15 @@ relacional.
     ```
     Listar pedido (GET)
 
-    url: https://ecommerce-aywx.onrender.com/pedido 
+    url: https://ecommerce-y8xp.onrender.com/pedido 
 
 - Listar pedido por ID (GET)
 
-    url: https://ecommerce-aywx.onrender.com/pedido/671eff861f01922a50c15495
+    url: https://ecommerce-y8xp.onrender.com/pedido/671eff861f01922a50c15495
 
 - Actualizar pedido por ID (PUT)
 
-    url: https://ecommerce-aywx.onrender.com/pedido/671eff861f01922a50c15495
+    url: https://ecommerce-y8xp.onrender.com/pedido/671eff861f01922a50c15495
     body:
     ```
     {
@@ -60,7 +60,7 @@ relacional.
 
 - Eliminar pedido por ID (DELETE)
 
-    url: https://ecommerce-aywx.onrender.com/pedido/671eff861f01922a50c15495
+    url: https://ecommerce-y8xp.onrender.com/pedido/671eff861f01922a50c15495
 
 
 Descargar el postman para interactuar con lso otros enpoints (Producto, Cliente)
